@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:background="@drawable/image_border"
+        android:src="@drawable/image"
+        android:scaleType="fitXY"
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_margin="20dp"
+        android:layout_below="@id/image_view"
+        android:id="@+id/text_below_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kindly Select One" />
+
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:layout_below="@id/text_below_image"
+        android:id="@+id/horizontal_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:background="@color/purple"
+            android:id="@+id/client_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Client" />
+
+        <Button
+            android:layout_marginLeft="10dp"
+           android:layout_marginStart="10dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:background="@color/purple"
+            android:id="@+id/designer_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Designer" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/profileImageList"
+        android:scaleType="centerCrop"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+    <TextView
+        android:textStyle="bold"
+        android:layout_toEndOf="@+id/profileImageList"
+        android:id="@+id/businessNameList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@id/businessNameList"
+        android:id="@+id/descriptionList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_below="@id/descriptionList"
+        android:id="@+id/phoneNumberList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RatingBar
+        android:contentDescription="BusinessRating"
+        android:layout_marginTop="8dp"
+        android:stepSize="0.5"
+        android:numStars="5"
+        android:layout_below="@id/phoneNumberList"
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical"
+        android:layout_below="@id/ratingBar"
+        android:id="@+id/reviewsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:id="@+id/addReviewLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Review" />
+
+        <EditText
+            android:hint="Write your review here"
+            android:layout_marginTop="5dp"
+            android:padding="16dp"
+            android:id="@+id/reviewEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="Submit"
+            android:layout_marginTop="15dp"
+            android:id="@+id/submitReviewButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>

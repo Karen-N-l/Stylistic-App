@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_frag"
+    app:startDestination="@id/designerHomeFragment">
+
+    <fragment
+        android:id="@+id/designerHomeFragment"
+        android:name="com.example.myemobilis_project.DesignerHomeFragment"
+        android:label="fragment_designer_home"
+        tools:layout="@layout/fragment_designer_home" />
+    <fragment
+        android:id="@+id/designerProfileFragment"
+        android:name="com.example.myemobilis_project.DesignerProfileFragment"
+        android:label="fragment_designer_profile"
+        tools:layout="@layout/fragment_designer_profile" />
+    <fragment
+        android:id="@+id/designerSearchFragment"
+        android:name="com.example.myemobilis_project.DesignerSearchFragment"
+        android:label="fragment_designer_search"
+        tools:layout="@layout/fragment_designer_search" />
+    <fragment
+        android:id="@+id/designerSettingsFragment"
+        android:name="com.example.myemobilis_project.DesignerSettingsFragment"
+        android:label="fragment_designer_settings"
+        tools:layout="@layout/fragment_designer_settings" />
+    <fragment
+        android:id="@+id/viewFragment"
+        android:name="com.example.myemobilis_project.ViewFragment"
+        android:label="fragment_view"
+        tools:layout="@layout/fragment_view" />
+</navigation>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/client_reset"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClientresetActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:id="@+id/clientpassword_resettv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Client reset password" />
+
+    <EditText
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:hint="Email"
+        android:background="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_below="@id/clientpassword_resettv"
+        android:id="@+id/clientemail_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/purple"
+        android:layout_marginTop="32dp"
+        android:layout_below="@id/clientemail_reset"
+        android:id="@+id/client_resetbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset" />
+</RelativeLayout>

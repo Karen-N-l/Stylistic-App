@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/designer_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup_designerActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:id="@+id/tvt_dsignuptitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fashion Designer SignUp" />
+
+    <EditText
+        android:textSize="16sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="16dp"
+        android:hint="Enter Email"
+        android:background="@color/white"
+        android:layout_marginTop="32dp"
+        android:layout_below="@id/tvt_dsignuptitle"
+        android:id="@+id/designersignup_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:hint="Password"
+        android:background="@color/white"
+        android:layout_marginTop="16dp"
+       android:layout_below="@id/designersignup_email"
+        android:id="@+id/designerregister_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+
+
+    <Button
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/purple"
+        android:layout_marginTop="32dp"
+       android:layout_below="@id/designerregister_password"
+        android:id="@+id/designerbtn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/designerbtn_register"
+        android:id="@+id/Fdesiner_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:id="@+id/textView_designersignupone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have one?" />
+
+        <TextView
+            android:layout_marginEnd="8dp"
+            android:layout_toEndOf="@id/textView_designersignupone"
+            android:textStyle="bold"
+            android:textColor="@color/purple"
+            android:id="@+id/textView_designertwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

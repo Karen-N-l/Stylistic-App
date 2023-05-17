@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/wavy_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnboardingActivity">
+
+
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingVertical="64dp"
+        android:paddingHorizontal="32dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginTop="120dp"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get to connect with great designers" />
+
+    <Button
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/button_background"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:id="@+id/getStartedButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Get Started" />
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "542934999819",
+    "project_id": "stylisticapp-b5bb0",
+    "storage_bucket": "stylisticapp-b5bb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542934999819:android:0f75569250113d860ab80e",
+        "android_client_info": {
+          "package_name": "com.example.myemobilis_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542934999819-61pte71ch47k54m1f9i37b1llcqoachs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2NjUPJ2wYipIPmmXRlO1lhPX95lmBPZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542934999819-61pte71ch47k54m1f9i37b1llcqoachs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
